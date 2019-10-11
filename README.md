@@ -1,9 +1,9 @@
 # Lil Peep language model (ULMFiT)
 
-Predicting lyrics of Lil peep using the ULMFiT model. The songs were webscraped from an undisclosed lycris distribution page. TULMFiT was fine-tuned on 2600 lyrical lines. The dataset is not supplied to avoid copyright issues. However the trained model can be download from a google drive:  
+Predicting lyrics of Lil peep using the ULMFiT model. The songs were webscraped from an undisclosed lycris distribution page. ULMFiT was fine-tuned on 2600 lyrical lines. The dataset is not supplied to avoid copyright issues. However the trained model can be download from a google drive:  
 https://drive.google.com/file/d/1bkVQAcm8sllbf008usfzQ2AinfRB5Iuc/view?usp=sharing
 
-The model.pth file should be saved in the model directory.
+The model.pth file should be saved in the model directory. 
 
 ### Example
 Lyrics can be predicted in the following way:  
@@ -54,6 +54,8 @@ White wine , more wine , baby pour another cup
 
 usage: lil-peep.py [-h] --words WORDS [--temperature TEMPERATURE]  
                    [--num_words NUM_WORDS]    
+                   
+I would advise to play around with the temperature parameter. Try values in the range of 0.3 till 2.
 
 ### Requirements  
 Anaconda Python 3.*  
