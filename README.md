@@ -10,7 +10,7 @@ The model.pth file should be saved in the model directory.
 Lyrics can be predicted in the followint way:  
 >$ python lil-peep.py "White wine"
 
-Sample output:
+Sample output:   
 White wine , more wine , baby pour another cup   
   Ayo xxbos They do n't see me unless i pull up Lamborghini    
   Everybody wanna be me till i pull up and they meet me   
