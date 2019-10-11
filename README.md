@@ -30,19 +30,8 @@ White wine , more wine , baby pour another cup
 
 ### Usage
 
-`usage: lil-peep.py [-h] --words WORDS [--temperature TEMPERATURE]  
+usage: lil-peep.py [-h] --words WORDS [--temperature TEMPERATURE]  
                    [--num_words NUM_WORDS]    
-
-Enter some words.  
-
-optional arguments:  
-  -h, --help            show this help message and exit  
-  --words WORDS, -w WORDS   
-                        Enter a string.  
-  --temperature TEMPERATURE, -t TEMPERATURE   
-                        Temperature.   
-  --num_words NUM_WORDS, -n NUM_WORDS   
-                        Number of words to predict.  
 
 ### Requirements  
 Anaconda Python 3.*  
