@@ -7,11 +7,11 @@ https://drive.google.com/file/d/1bkVQAcm8sllbf008usfzQ2AinfRB5Iuc/view?usp=shari
 
 The model.pth file should be saved in the model directory.
 
-Lyrics can be predicted in the followint way:
+Lyrics can be predicted in the followint way:  
 $python lil-peep.py "White wine"
 
 
-usage: lil-peep.py [-h] --words WORDS [--temperature TEMPERATURE]
+`usage: lil-peep.py [-h] --words WORDS [--temperature TEMPERATURE]
                    [--num_words NUM_WORDS]
 
 Enter some words.
@@ -24,4 +24,4 @@ optional arguments:
                         Temperature.
   --num_words NUM_WORDS, -n NUM_WORDS
                         Number of words to predict.
-jupyter@my-fastai-instance:~/projects/lil-peep-nlp$ 
+jupyter@my-fastai-instance:~/projects/lil-peep-nlp$ `
