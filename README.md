@@ -1,4 +1,4 @@
-# Lil peep language model (ULMFiT)
+# Lil Peep language model (ULMFiT)
 
 Predicting lyrics of Lil peep using the ULMFiT model. The songs were webscraped from an undisclosed lycris distribution page. The dataset is not supplied to avoid copyright issues. However the trained model can be download from a google drive:  
 https://drive.google.com/file/d/1bkVQAcm8sllbf008usfzQ2AinfRB5Iuc/view?usp=sharing
