@@ -11,6 +11,7 @@ args = parser.parse_args()
 
 start_lyrics = args.words
 temp = args.temperature
+words = args.num_words
 
 path = Path("./")
 data_lm = load_data(path, 'data_lm.pkl')
@@ -23,7 +24,7 @@ learner =  language_model_learner(
 
 import os
 learner.load(os.getcwd() +  "/model/" + "lil-peep-lyrics-model", with_opt=False)
-lyrics = learner.predict(start_lyrics, n_words=200, temperature=temp)
+lyrics = learner.predict(start_lyrics, n_words=words, temperature=temp)
 
 print(lyrics)
 
